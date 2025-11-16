@@ -17,7 +17,10 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
   </p>
 
   
-## With terminal
+## With terminal Fastfetch 
+```bash
+https://github.com/Raditya808/Terminal-fastfetch-config
+```
 <p align="center">
     <img src="assets/pict6.png" alt="ss" width="800px"/>
   </p>
@@ -52,7 +55,7 @@ Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 - Clone the project
 
 ```bash
-git clone https://github.com/Raditya808/NEOVIM.git $env:LOCALAPPDATA\nvim
+git clone https://github.com/Raditya808/LAZY-VIM $env:LOCALAPPDATA\nvim
 ```
 
 ### Linux
@@ -97,5 +100,8 @@ nvim
 :Copilot status (status)
 ```
 ```bash
-:Copilot signout
+:Copilot signout (signout)
+```
+```bash
+:Copilot signin (to sign in)
 ```

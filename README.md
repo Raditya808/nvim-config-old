@@ -2,8 +2,11 @@
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+<p align="center">
+  <img src="assets/pict9.png" alt="ss" width="800px"/>
+</p>
 
-
+## Pict
 <p align="center">
   <img src="assets/pict5.png" alt="ss" width="800px"/>
 </p>

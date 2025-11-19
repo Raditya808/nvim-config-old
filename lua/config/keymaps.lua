@@ -76,4 +76,4 @@ keymap("n", "<leader>gt", ":Gitsigns toggle_current_line_blame<CR>", opts)
 keymap("n", "<leader>lg", ":LazyGit<CR>", opts)
 keymap("t", "<Esc>", "<C-\\><C-n><cmd>q<CR>", opts) -- exit lazygit with esc
 
-keymap("n", "<leader>h", ":Alpha<CR>", opts) -- Membuka dashboard (menggunakan 'alpha-nvim')
+keymap("n", "<leader>h", ":Alpha<CR>", opts) -- Ini hanya memuat Alpha, buffer file tetap di daftar

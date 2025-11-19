@@ -1,5 +1,5 @@
 return {
-	-- 💤 Dashboard mirip LazyVim
+	--  Dashboard mirip LazyVim
 	{
 		"goolord/alpha-nvim",
 		enabled = true,
@@ -8,7 +8,7 @@ return {
 			local alpha = require("alpha")
 			local dashboard = require("alpha.themes.dashboard")
 
-			-- ⚡️ Fungsi untuk mendapatkan status load dari lazy.nvim (DIPERBAIKI)
+			--  Fungsi untuk mendapatkan status load dari lazy.nvim (DIPERBAIKI)
 			local function lazy_load_status()
 				local lazy_config = package.loaded["lazy.core.config"]
 
@@ -39,7 +39,7 @@ return {
 				return "⚡ Neovim loaded"
 			end
 
-			-- 💤 ASCII header (DIBERSIHKAN)
+			-- ASCII header (DIBERSIHKAN)
 			dashboard.section.header.val = {
 				-- Baris kosong dan baris akhir dibersihkan dari spasi berlebihan
 				[[]],
@@ -87,7 +87,7 @@ return {
 
 			alpha.setup(dashboard.config)
 
-			-- 🌈 Warna untuk header dan tombol (TIDAK BERUBAH)
+			-- Warna untuk header dan tombol (TIDAK BERUBAH)
 			vim.cmd([[
         highlight Title guifg=#5EA0EA
         highlight Function guifg=#89B4FA
@@ -96,7 +96,7 @@ return {
 		end,
 	},
 
-	-- 🌈 Lualine (status bar) - TIDAK ADA PERUBAHAN, sudah bagus
+	-- Lualine (status bar) - TIDAK ADA PERUBAHAN, sudah bagus
 	{
 		"nvim-lualine/lualine.nvim",
 		lazy = false,

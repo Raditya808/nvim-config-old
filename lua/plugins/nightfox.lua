@@ -1,3 +1,4 @@
+-- nightfox theme
 return {
 	"EdenEast/nightfox.nvim",
 	lazy = false,

@@ -77,3 +77,12 @@ keymap("n", "<leader>lg", ":LazyGit<CR>", opts)
 keymap("t", "<Esc>", "<C-\\><C-n><cmd>q<CR>", opts) -- exit lazygit with esc
 
 keymap("n", "<leader>h", ":Alpha<CR>", opts) -- Ini hanya memuat Alpha, buffer file tetap di daftar
+
+-- esc :terminal
+-- Terminal in normal mode after in insert mode
+vim.api.nvim_set_keymap(
+	"t",
+	"<Esc>",
+	"<C-\\><C-n>",
+	{ noremap = true, silent = true, desc = "Exit terminal job mode to normal mode" }
+)

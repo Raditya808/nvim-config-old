@@ -12,6 +12,13 @@ return {
 		---@module "neo-tree"
 		---@type neotree.Config?
 		opts = {
+
+			-- width neotree size to control the size
+			windows = {
+				width = 15,
+				auto_expand_width = false,
+			},
+
 			-- fill any relevant options here
 			event_handlers = {
 				-- Auto close on open file

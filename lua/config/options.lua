@@ -91,7 +91,7 @@ vim.opt.showmode = false
 -- Set the colorscheme
 vim.cmd([[colorscheme rose-pine-main]])
 
--- celah
+-- Mengatur kelebaran dari terminal (tidak memiliki celah tertutup)
 local opt = vim.opt
 
 -- Hilangin celah putih / area command line
